@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Dugfitti;
+    src: url(../Font/Dugffiti-Regular.ttf);
+    font-family: VCR;
+    src: url(../Font/VCR_OSD_MONO_1.001.ttf)
+}
+
+h1{
+    font-family: Dugffiti;
+    font-style: normal;
+}
+
+section{
+    padding: 10%;
+}

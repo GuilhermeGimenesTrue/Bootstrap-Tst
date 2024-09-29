@@ -19,9 +19,9 @@
 }
 
 main{
-    width: 80%;
+    /* width: 80%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 
@@ -61,6 +61,10 @@ section{
     padding-right: 1%;
 }
 
+.center{
+    text-align: center;
+}
+
 .button{
     background-color: darkblue;
     color: #fff;
@@ -80,6 +84,7 @@ section{
 }
 
 .subtitulo{
+    font-size: 1.2em;
     padding-top: 0.01rem;
 }
 
@@ -95,4 +100,62 @@ section{
     font-size: 1.2em;
     padding-left: 5cm;
     text-align: justify;
+}
+
+.comp_imagem{
+    border-radius: 10%;
+    width: 30%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;    
+}
+
+.comp_titulo{
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+.comp_imagem_grid{
+    float: left;
+}
+
+.imagem_menor_grid{
+    width: 5%;
+}
+
+.comp_titulo_grid{
+    font-family: Grafitti Skater,sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+.comp_texto_grid{
+    text-align: left;
+}
+
+
+.cont_subtitulo_center{
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 0.01rem;
+    padding-bottom: 8%;
+}
+
+.cont_imagem{
+    float: left;
+    width: 2%;
+}
+
+.cont_text{
+    color: grey;
+}
+
+.cont_titulo{
+    font-family: VCR,sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    font-size: 2em;
 }
